@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: springboot-k8s-configmap-demo
-        image: cloudtechmasters/springboot-k8s-configmap-demo:latest
+        image: 13:latest
         ports:
         - containerPort: 22222
         env:
